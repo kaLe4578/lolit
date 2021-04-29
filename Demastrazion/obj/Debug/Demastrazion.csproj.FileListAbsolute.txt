@@ -1,0 +1,10 @@
+C:\Users\Екатерина\source\repos\Demastrazion\Demastrazion\obj\Debug\Demastrazion.csprojAssemblyReference.cache
+C:\Users\Екатерина\source\repos\Demastrazion\Demastrazion\obj\Debug\Window\Client.g.cs
+C:\Users\Екатерина\source\repos\Demastrazion\Demastrazion\obj\Debug\Window\EditClient.g.cs
+C:\Users\Екатерина\source\repos\Demastrazion\Demastrazion\obj\Debug\Window\EditRealtor.g.cs
+C:\Users\Екатерина\source\repos\Demastrazion\Demastrazion\obj\Debug\Window\MainWindow.g.cs
+C:\Users\Екатерина\source\repos\Demastrazion\Demastrazion\obj\Debug\Window\Realtor.g.cs
+C:\Users\Екатерина\source\repos\Demastrazion\Demastrazion\obj\Debug\App.g.cs
+C:\Users\Екатерина\source\repos\Demastrazion\Demastrazion\obj\Debug\Demastrazion_Content.g.cs
+C:\Users\Екатерина\source\repos\Demastrazion\Demastrazion\obj\Debug\Demastrazion_MarkupCompile.cache
+C:\Users\Екатерина\source\repos\Demastrazion\Demastrazion\obj\Debug\Demastrazion_MarkupCompile.lref
