@@ -16,28 +16,50 @@ using System.Windows.Shapes;
 namespace Demastrazion
 {
     /// <summary>
-    /// Логика взаимодействия для Client.xaml
+    /// Логика взаимодействия для ClientWindow.xaml
     /// </summary>
-    public partial class Client 
+    public partial class ClientWindow : Window
+
     {
         DemastrazionEntities demastrazionEntities = new DemastrazionEntities();
 
-        public Client()
+        public ClientWindow()
         {
-            InitializeComponent()
+            InitializeComponent();
             dataGrid.AutoGenerateColumns = false;
             dataGrid.ItemsSource = demastrazionEntities.Client.ToList();
         }
 
         private void button_Add_Client_Click(object sender, RoutedEventArgs e)
         {
-            EditClient editClientWindow = new EditClient();
-            editClientWindow.Show();
+            EditClient editClient = new EditClient();
+            editClient.Show();
         }
 
         private void button_Delete_Click(object sender, RoutedEventArgs e)
         {
-                
+
+        }
+
+        private void button_Edit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void button_Update_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void button_Exit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void dataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
+
 }

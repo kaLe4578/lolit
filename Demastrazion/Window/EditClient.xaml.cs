@@ -38,7 +38,6 @@ namespace Demastrazion
             textBoxPhone.Text = client.Phone;
             textBoxS.Text = client.S;
             _client.id = client.id;
-            _client.
         }
 
         private void button_Click(object sender, RoutedEventArgs e)

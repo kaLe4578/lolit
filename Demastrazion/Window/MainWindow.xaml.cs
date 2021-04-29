@@ -1,4 +1,4 @@
-﻿using Demastrazion;
+﻿using Demastrazion.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,7 +19,7 @@ namespace Demastrazion
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
-    public partial class MainWindow 
+    public partial class MainWindow : Window
     {
         public MainWindow()
         {
@@ -28,7 +28,7 @@ namespace Demastrazion
 
         private void button_Client_Click(object sender, RoutedEventArgs e)
         {
-            Client clientWindow = new Client();
+            ClientWindow clientWindow = new ClientWindow();
             clientWindow.Show();
             this.Close();
         }

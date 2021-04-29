@@ -1,13 +1,13 @@
-﻿<Window x:Class="Demastrazion.Client"
+﻿<Window x:Class="Demastrazion.ClientWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Demastrazion"
         mc:Ignorable="d"
-        Title="Client" Height="450" Width="800">
+        Title="ClientWindow" Height="450" Width="800">
     <Grid>
-        <DataGrid x:Name="dataGrid" Margin="0,38,153,0">
+        <DataGrid x:Name="dataGrid" Margin="0,38,153,0" SelectionChanged="dataGrid_SelectionChanged">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Фамилия" Binding="{Binding S}" Width="*"></DataGridTextColumn>
                 <DataGridTextColumn Header="Имя" Binding="{Binding N}" Width="*"></DataGridTextColumn>

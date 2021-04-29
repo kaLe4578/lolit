@@ -64,6 +64,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ClientWindow.xaml.cs">
+      <DependentUpon>ClientWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Window\EditClient.xaml.cs">
       <DependentUpon>EditClient.xaml</DependentUpon>
     </Compile>
@@ -103,7 +106,7 @@
     <Compile Include="Window\Realtor.xaml.cs">
       <DependentUpon>Realtor.xaml</DependentUpon>
     </Compile>
-    <Page Include="Window\Client.xaml">
+    <Page Include="ClientWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -122,9 +125,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Window\Client.xaml.cs">
-      <DependentUpon>Client.xaml</DependentUpon>
     </Compile>
     <Compile Include="Window\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>

@@ -8,3 +8,4 @@ C:\Users\Екатерина\source\repos\Demastrazion\Demastrazion\obj\Debug\App
 C:\Users\Екатерина\source\repos\Demastrazion\Demastrazion\obj\Debug\Demastrazion_Content.g.cs
 C:\Users\Екатерина\source\repos\Demastrazion\Demastrazion\obj\Debug\Demastrazion_MarkupCompile.cache
 C:\Users\Екатерина\source\repos\Demastrazion\Demastrazion\obj\Debug\Demastrazion_MarkupCompile.lref
+C:\Users\Екатерина\source\repos\Demastrazion\Demastrazion\obj\Debug\ClientWindow.g.cs

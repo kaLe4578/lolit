@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Екатерина\source\repos\Demastrazion\Demastrazion\App.xaml
-5-157796077
+51880872037
 2482335943
-18-1034839482
+18-1295041880
 181256563822
-Window\Client.xaml;Window\EditClient.xaml;Window\EditRealtor.xaml;Window\MainWindow.xaml;Window\Realtor.xaml;
+ClientWindow.xaml;Window\EditClient.xaml;Window\EditRealtor.xaml;Window\MainWindow.xaml;Window\Realtor.xaml;
 
-False
+True
 
